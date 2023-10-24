@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Arithmetic expression evaluation</title>
+<script type="text/javascript">
+function Evaluate()
+{
+var enteredExpr=document.getElementById("expr").value;
+document.getElementById("result").value=eval(enteredExpr);
+}
+</script>
+</head>
+<body>
+<hr>
+<h1 align="center">EVALUATION ARITHMETIC EXPRESSION</h1>
+<hr>
+<center>
+<form name="myform"><br><font size=6px><br><br><br>&nbsp&nbspEnter any valid Expression:
+<input type="text"id="expr"><br><br>&nbsp&nbsp
+<input type="button"value="Evaluate"onclick="Evaluate()"/><br><br>&nbsp&nbspResult of an Expression:
+<input type="text"id="result"><br><br>
+</form>
+</center>
+</body>
+</html>
